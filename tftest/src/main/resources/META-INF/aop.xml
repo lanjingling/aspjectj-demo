@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>  
+<aspectj>
+    <aspects>
+        <aspect name="a.b.c.tftest.aspectj.ProfilingAspect"/>
+        <weaver options="-verbose -showWeaveInfo">
+            <include within="a.b.c.tftest..*"/>
+        </weaver>
+    </aspects>
+</aspectj>
